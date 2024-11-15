@@ -1,0 +1,135 @@
+/* ------------------------------------------------------------ */
+/* -------------------------RESPONSIVE------------------------- */
+/* ------------------------------------------------------------ */
+
+
+
+/* @media (max-width: 992px) {
+    .main{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .nav-links{
+        display: flex;
+        gap: 2rem;
+    }
+    .menu{
+        display: none;
+    }
+} */
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+
+@media (min-width: 320px) {
+    
+    .hero-img-more{
+        display: none;
+    }
+
+    
+}
+
+@media (max-width:320px){
+    .menu-bar{
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    
+    .hero-img-more{
+        display: none;
+    }
+    .section-productos{
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .hero-img-320{
+        display:flex;
+        padding: 2px;
+    }
+    .section-productos{
+        display: flex;
+    }
+    .nav-links{
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+    .nav-links{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    
+    .section-productos{
+        display: flex;
+    }
+
+    #contacto-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+
+
+@media (min-width: 992px) {
+    main {
+        max-width: 1200px;
+        align-items: center;
+        margin: 0px auto;
+
+    }
+
+    .nav-links{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .menu-bar{
+        display: none;
+    }
+    
+}
+
+/* @media (min-width: 1024px) {
+    .section-productos{
+        display: flex;
+        width: 85%;    
+    }
+} */
+
+@media (max-width: 480px) {
+    .resenas-container {
+        grid-template-columns: 1fr; /* Una sola columna */
+        gap: 1rem; /* Reduce el espacio entre reseñas */
+    }
+
+    .resena-card {
+        padding: 1rem; /* Ajusta el padding para pantallas más pequeñas */
+        font-size: 0.9rem; /* Reduce ligeramente el tamaño del texto */
+    }
+
+    .resena-card p {
+        font-size: 1rem; /* Texto de reseña más legible */
+    }
+
+    .resena-card span {
+        font-size: 0.8rem; /* Texto del nombre más pequeño */
+    }
+
+    .section-resenas {
+        padding: 1rem; /* Reduce el padding general */
+    }
+}
